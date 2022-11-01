@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px 0px;
+    border-top: 1px #d2d2d2 solid;
+    padding: 35px 0 10px 0;
+}
+
+.footerP {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+    text-align: left;
+}
+.ingressive-logo {
+    width: 99.1px;
+    height: 24px;
+}
+
+@media only screen and (min-width:601px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

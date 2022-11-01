@@ -1,0 +1,58 @@
+.header {
+    padding-bottom: 30px;
+    width: 100%;
+    height: 220px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . share"
+      ". profile profile share"
+      ". profile profile ."
+      ". profile profile ."; 
+    }
+
+.profile { 
+    grid-area: profile; 
+}
+.share { 
+    display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . ."
+    ". share-icon ."
+    ". . ."; 
+  grid-area: share; 
+}
+.share-icon { grid-area: share-icon; }
+
+#profile__img {
+    margin-top: 20px;
+}
+#twitter, #slack {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    color: #101828;
+    padding-top: 15px;
+}
+#slack {
+    display: none;
+}
+.desktop-share {
+    display: none;
+}
+
+@media only screen and (min-width:601px) {
+    .mobile-share {
+        display: none;
+    }
+    .desktop-share {
+        display: initial;
+    }
+    
+}
