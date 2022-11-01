@@ -3,7 +3,7 @@ const BoxProp = [
     {
         id: 1,
         textValue: "Twitter Link",
-        textLink: "",
+        textLink: "https://twitter.com",
         textID: "twitter__id",
         logoId: 1,
         logo: "",
