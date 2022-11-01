@@ -9,7 +9,7 @@ export const Box = (props) => {
             props.propVal.map(val => (
                 <div key={val.id} className="box-class">
                     
-                    <Text key={val.id} textClass="text-class" textValue={val.textValue} />
+                    <Text key={val.id} textClass="text-class" textValue={val.textValue} textID={val.textID} />
                  </div>
             ))
         }
