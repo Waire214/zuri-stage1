@@ -4,7 +4,6 @@ import {ReactComponent as ProfileImage} from '../../assets/profileImg.svg'
 import {ReactComponent as Share} from '../../assets/share.svg'
 import {ReactComponent as MobileShare} from '../../assets/mobileShare.svg'
 
-
 export const Header = () => {
   return (
     <div className='header'>

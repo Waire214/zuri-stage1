@@ -28,7 +28,6 @@
   grid-area: share; 
 }
 .share-icon { grid-area: share-icon; }
-
 #profile__img {
     margin-top: 20px;
 }
