@@ -37,8 +37,10 @@ export default class ContactForm extends Component {
   }
 
   handleSubmit = (e) => {
+
     e.preventDefault();
-    alert(`Your form has been submitted successfully`)
+    alert(`Your form has been submitted successfully ${this.state.checked}`)
+    this.setState({checked: e.target.checked})
   }
 
   render() {
