@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import './main.css'
 import { Box } from '../boxes/Box'
 import boxData from '../properties/TextBox'
-import { Logo
- } from '../logo/Logo'
+import { Logo } from '../logo/Logo'
 export class Main extends Component {
     constructor(props) {
       super(props)

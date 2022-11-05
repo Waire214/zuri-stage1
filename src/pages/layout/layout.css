@@ -1,0 +1,19 @@
+.layoutContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+/* @media only screen and (min-width:601px) {
+    .App {
+      padding: 25px 100px;
+    }
+  }
+  
+@media only screen and (min-width:1200px) {
+.App {
+    width: 1000px;
+    padding: 25px 100px;
+}
+} */

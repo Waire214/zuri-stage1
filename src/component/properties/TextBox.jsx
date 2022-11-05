@@ -48,6 +48,14 @@ const BoxProp = [
         textID: "book__design",
         sub:"Design books! Free! No charges!"
     },
+    // {
+    //     id: 7,
+    //     textValue: "Contact Me",
+    //     textLink: "/contact",
+    //     textID: "contact",
+    //     sub:"Get in touch with me!"
+    // },
+
 ]
 
 export default BoxProp
