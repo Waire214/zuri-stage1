@@ -83,7 +83,7 @@ export default class ContactForm extends Component {
           checked={checked} onChange={this.handleChange} 
           onMouseOver={this.handleOnFocusIn} 
           onMouseOut={this.handleOnFocusOut} 
-          disabled={textAreaValue === '' ? true : false} 
+          disabled={textAreaValue === '' || textAreaValue==="Send me a message and I'll reply you as soon as possible..." ? true : false} 
         />
         <label htmlFor="checkbox">You agree to providing your data to Oluwatosin who may contact you.</label>
 
