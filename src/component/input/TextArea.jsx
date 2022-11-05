@@ -31,8 +31,8 @@ export const TextArea = (props) => {
                     ${props.propVal.inputEmailStyle}  
                     textArea 
                     ${props.value===props.propVal.textAreaPlaceHolder ? 'placeholderError' : ""} 
-                    ${(focus && props.value==="") ? 'emptyTextArea' : ""}
-                    ${props.value === "" ? "defaultEmptyTextArea" : ""}
+                    ${focus && props.value==="" ? 'emptyTextArea' : ""}
+                    ${!focus ? "defaultEmptyTextArea" : ""}
                 `} 
                 placeholder={props.propVal.textAreaPlaceHolder} 
                 value={props.value} 
