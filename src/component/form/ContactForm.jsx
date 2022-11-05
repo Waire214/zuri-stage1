@@ -90,7 +90,7 @@ export default class ContactForm extends Component {
       </div>
         <button 
           type="submit" 
-          disabled={!checked || textAreaValue === '' ? true : false} 
+          disabled={!checked || textAreaValue === '' || textAreaValue==="Send me a message and I'll reply you as soon as possible..." ? true : false} 
           className={`
             ${!checked ? 'btnDisabled' : 'btnEnabled'} 
             ${textAreaValue === '' ? 'btnDisabled' : 'btnEnabled'} 
