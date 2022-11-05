@@ -40,7 +40,18 @@ export const TextArea = (props) => {
                     {props.value}
             </textarea>
 
-            <p className={`${(focus && props.value==="") || (focus && props.value===props.propVal.textAreaPlaceHolder) || (props.value==="") ? 'showSubText' : 'removeSubText'}`}>Please enter a message</p>
+            <p className={`
+                ${(focus && props.value==="") 
+                || 
+                (focus && props.value===props.propVal.textAreaPlaceHolder) 
+                || 
+                (props.value==="") 
+                || 
+                (!focus && props.value==="") 
+                || 
+                (!focus && props.value===props.propVal.textAreaPlaceHolder) ? 'showSubText' : 'removeSubText'}`}>
+                    Please enter a message
+            </p>
         </div>
         
   )
