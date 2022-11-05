@@ -96,7 +96,8 @@ export default class ContactForm extends Component {
             ${textAreaValue === '' ? 'btnDisabled' : 'btnEnabled'} 
             ${btnFocused && checked ? 'btnCheckedAndFocused' : ""}
           `} 
-          onFocus={this.handleOnBtnFocusIn}>
+          onFocus={this.handleOnBtnFocusIn}
+          id='btn__submit'>
             Send message
         </button>
     </form>
